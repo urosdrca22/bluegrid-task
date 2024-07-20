@@ -9,7 +9,8 @@ Follow these steps to set up and run the project locally:
 npm install
 npm start
 ```
-### 3. (Optional) - wait for 10-15 seconds for data to be prefetched before testing 
+### 3. (Optional) - wait for 10-15 seconds for data to be prefetched before testing. You should see the following message in the console shortly after spinning up the server:
+'Data pre-fetched and cached successfully.'
 ### 4. Test by visiting http://localhost:3000/api/files in the browser or through CLI with curl 
 `curl http://localhost:3000/api/files`
 
