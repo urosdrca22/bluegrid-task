@@ -1,7 +1,9 @@
 type item = {fileUrl: string}
+
 type DirectoryOrFile = Directory | string;
+
 type Directory = { [key: string]: DirectoryOrFile[] };
-export interface rawData {
+export interface RawData {
     items: item[]
 }
 export interface FormattedData {
